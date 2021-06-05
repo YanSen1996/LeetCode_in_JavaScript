@@ -1,3 +1,4 @@
+// TreeNode
 class TreeNode {
   constructor(val = 0, left = null, right = null) {
     this.val = val;
@@ -36,7 +37,6 @@ class TreeNode {
   }
 
   print() {
-    // TODO: <TreeNode> tree node show
     const queue = [this];
     const layers = [];
     while (queue.length) {
